@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header ul{
+    background-color: #c2e7f1;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+  }
+  header h1 {
+    margin: 0;
+  }
+  header li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  header a {
+    text-decoration: none;
+    color: #333;
+  }
+  header a:hover {
+    text-decoration: underline;
+    color: aqua;
+  }
+  header span{
+   font-size: 45px;
+   color: #4f4444;
+  }
+  header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .logo-nav{
+    display: flex;
+    align-items: center;
+  }
+ .iconfont.icon-gougou{
+    font-size: 50px;
+    color: #4f4444;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+ }
+ .iconfont.icon-tongxunlutianchong{
+    font-size: 50px;
+    position: absolute;
+    right: 60px;
+ }
+ .iconfont.icon-24gf-videoCamera{
+    font-size: 45px;
+    position: absolute;
+    right: 10px;
+ }  
+ 
+ .email {
+    background-color: #e0ebf6;
+    width: 75%;
+    margin: 50px auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .email-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .email-summary {
+    margin: 0;
+    text-indent: 2em;
+  }
+  
+  .email-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  
+    color: #888;
+  }
+.iconfont.icon-touxiang{
+    font-size: 20px;
+    position: inlin-block;
+    margin-right: 5px;
+}
+.email-meta .action a {
+    text-decoration: none;
+    color: #888;
+    margin-left: 10px;
+  }
+  .email-meta .action a:hover {
+    text-decoration: underline;
+    color: aqua;
+  }
+  .iconfont.icon-yonghu{
+    font-size: 20px;
+  }
+  .button-group {
+    display: flex;
+    gap: 10px; 
+}
+
+button {
+    position: relative; 
+    padding: 10px 20px;
+    
+}
+
+button::after {
+    content: "";
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(50%);
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000; 
+    display: none; 
+}
+footer {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+button:hover::after {
+    display: block; }
+    .iconfont.icon-pinghangsibianxing{
+      font-size:40px;
+      color: aqua;
+
+    }
