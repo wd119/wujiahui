@@ -6,11 +6,39 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "1813311",
-      "name": "狗狗",
-      "font_class": "gougou",
-      "unicode": "e721",
-      "unicode_decimal": 59169
+      "icon_id": "1230",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "f012d",
+      "unicode_decimal": 983341
+    },
+    {
+      "icon_id": "145733",
+      "name": "通讯录_填充",
+      "font_class": "tongxunlutianchong",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "5215354",
+      "name": "平行四边形",
+      "font_class": "pinghangsibianxing",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "7588177",
+      "name": "24gf-videoCamera",
+      "font_class": "24gf-videoCamera",
+      "unicode": "e9f5",
+      "unicode_decimal": 59893
+    },
+    {
+      "icon_id": "11346894",
+      "name": "头像",
+      "font_class": "touxiang",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
     }
   ]
 }
