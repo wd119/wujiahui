@@ -155,7 +155,7 @@ button:hover::after {
     }
     body{
       background-color: #f2f2f2;
-      background-image: url(image2/background.png);
+      background-image: url(background.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
