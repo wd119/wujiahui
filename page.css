@@ -7,6 +7,8 @@ body {
   header ul{
     background-color: #c2e7f1;
     padding: 20px;
+    border-radius: 10px;
+    margin: 0 50px ;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -36,7 +38,8 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
   .logo-nav{
     display: flex;
@@ -46,18 +49,18 @@ body {
     font-size: 50px;
     color: #4f4444;
     position: absolute;
-    top: 20px;
-    right: 50px;
+    top: 35px;
+    right: 60px;
  }
  .iconfont.icon-tongxunlutianchong{
     font-size: 50px;
     position: absolute;
-    right: 60px;
+    right: 90px;
  }
  .iconfont.icon-24gf-videoCamera{
     font-size: 45px;
     position: absolute;
-    right: 10px;
+    right: 40px;
  }  
  
  .email {
@@ -65,9 +68,10 @@ body {
     width: 75%;
     margin: 50px auto;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
   }
   .email-content {
     display: flex;
@@ -105,14 +109,24 @@ body {
   }
   .button-group {
     display: flex;
+    flex-direction: column;
     gap: 10px; 
 }
 
 button {
     position: relative; 
     padding: 10px 20px;
-    
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f4444;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 50px;
 }
+
+
+
 
 button::after {
     content: "";
@@ -126,8 +140,10 @@ button::after {
     display: none; 
 }
 footer {
+  position: relative;
+  bottom: 40px;
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
   align-items: center;
 }
 button:hover::after {
@@ -136,4 +152,15 @@ button:hover::after {
       font-size:40px;
       color: aqua;
 
+    }
+    body{
+      background-color: #f2f2f2;
+      background-image: url(image2/background.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: scroll;
+    }
+    main h2{
+      margin-left: 50px;
     }
